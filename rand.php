@@ -26,7 +26,7 @@ class ImgurParser
         $this->_ch = $ch = curl_init();
         curl_setopt($this->_ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($this->_ch, CURLOPT_HTTPHEADER, array(
-            'Authorization: Client-ID 15fe591ce923c54'
+            'Authorization: Client-ID "YourTokenAPI"'
         ));
     }
 
